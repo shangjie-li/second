@@ -95,9 +95,11 @@ Implementation of SECOND in PyTorch for KITTI 3D Object Detetcion
    python test.py --ckpt=weights/second_7862.pth
    ```
  - The 3D detection performance on KITTI should be
-   | Class                | AP (R11) BEV              | AP (R11) 3D               |
-   |:--------------------:|:-------------------------:|:-------------------------:|
-   | Car (Iou=0.7)        | 90.0097, 87.9282, 86.4528 | 88.6137, 78.6245, 77.2243 |
-   | Pedestrian (Iou=0.5) | 61.9979, 56.6604, 53.8126 | 56.5544, 52.9835, 47.7343 |
-   | Cyclist (Iou=0.5)    | 84.0183, 70.7012, 65.4772 | 80.5862, 67.1589, 63.1087 |
+
+|                      |       AP (R11) BEV        |        AP (R11) 3D        |
+|----------------------|:-------------------------:|:-------------------------:|
+| Car (Iou=0.7)        | 90.0097, 87.9282, 86.4528 | 88.6137, 78.6245, 77.2243 |
+| Pedestrian (Iou=0.5) | 61.9979, 56.6604, 53.8126 | 56.5544, 52.9835, 47.7343 |
+| Cyclist (Iou=0.5)    | 84.0183, 70.7012, 65.4772 | 80.5862, 67.1589, 63.1087 |
+
     * Report in different difficulties, which are Easy, Moderate and Hard.
